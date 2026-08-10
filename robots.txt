@@ -1,0 +1,9 @@
+# Barley Hair Transplant - Robots.txt
+# https://www.hairimplant.cn
+
+User-agent: *
+Allow: /
+
+
+# Sitemap location
+Sitemap: https://www.hairimplant.cn/sitemap.xml
