@@ -5,6 +5,7 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+    <link rel="preload" as="image" href="Banner/hero-3.jpg" fetchpriority="high">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Hair Transplant FAQ | Cost, Safety, Recovery, Pain & Scars Q&A | Barley Hair Clinic</title>
  <meta name="description" content="Find answers to common hair transplant questions. Learn about FUE procedure, recovery, costs, results, and everything you need to know before your hair transplant at Barley.">
@@ -12,7 +13,7 @@
  <meta name="robots" content="index, follow">
  <meta name="author" content="Barley Hair Transplant Hospital">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
- <link rel="stylesheet" href="oldcss/style.css">
+ <link rel="stylesheet" href="images/style.css">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
  <meta property="og:type" content="website">
  <meta property="og:title" content="Hair Transplant FAQ | Common Questions Answered">
@@ -329,7 +330,7 @@
  <div class="container">
  <div class="header-content">
  <div class="logo">
- <img src="oldimages/images/logo.png" alt="Barley Hair Transplant Hospital">
+ <img src="images/logo.png" alt="Barley Hair Transplant Hospital" width="400" height="400">
  <span class="logo-text-desktop">Barley Hair Transplant Hospital</span><span class="logo-text-mobile">Barley Hair Hospital</span>
  </div>
  <div class="hamburger">
@@ -361,7 +362,7 @@
  <section class="hero">
  <div class="hero-slides" id="heroSlides">
  <div class="hero-slide">
- <img src="oldimages/Banner/hero-3.jpg" alt="FAQ - Expert Answers">
+ <img loading="eager" fetchpriority="high" decoding="async" src="Banner/hero-3.jpg" alt="FAQ - Expert Answers" width="1920" height="1078">
  <div class="hero-overlay">
  <div class="hero-content">
  <h2>Hair Transplant FAQ</h2>
@@ -371,7 +372,7 @@
  </div>
  </div>
  <div class="hero-slide">
- <img src="oldimages/Banner/hero-19.jpg" alt="FAQ - Common Questions">
+ <img loading="lazy" decoding="async" src="Banner/hero-19.jpg" alt="FAQ - Common Questions" width="1920" height="1078">
  <div class="hero-overlay">
  <div class="hero-content">
  <h2>We're Here to Help</h2>
@@ -381,7 +382,7 @@
  </div>
  </div>
  <div class="hero-slide">
- <img src="oldimages/Banner/hero-13.jpg" alt="FAQ - Expert Guidance">
+ <img loading="lazy" decoding="async" src="Banner/hero-13.jpg" alt="FAQ - Expert Guidance" width="1920" height="1078">
  <div class="hero-overlay">
  <div class="hero-content">
  <h2>Expert Guidance</h2>
@@ -871,7 +872,7 @@
 <!-- END Footer Section -->
 <a href="javascript:void(0)" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
 
- <script src="oldjs/main.js"></script>
+ <script src="images/main.js"></script>
  <script>
  // FAQ Accordion
  document.querySelectorAll('.faq-question').forEach(function(question) {
@@ -927,7 +928,7 @@
 <script>
 window.ZF_FORM_CONFIG = {
  wechat: "15810155700",
- qrcode: { enable: false, src: "/oldimages/images/erweima.jpg" },
+ qrcode: { enable: false, src: "/images/erweima.jpg" },
  display: {
  pcFloat: true,
  mobileMode: "mini"
