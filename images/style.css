@@ -866,6 +866,7 @@ section.bg-light {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin-top: 40px;
+    align-items: start;
 }
 
 .contact-item {
@@ -909,6 +910,7 @@ section.bg-light {
 .contact-item.qrcode-card img {
     width: 100%;
     max-width: 200px;
+    height: auto;
     border-radius: 8px;
 }
 
